@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Das Cores</title>
+    <link rel="stylesheet" href="style.css">
+  	<script src="App.js" defer></script>
+</head>
+<body>
+    
+    <div class="circle-container">
+        <div id="circle" onclick="borderColorBigCircle()">
+          <button class="btn" onclick="initialColor()">Reiniciar</button>
+        </div>
+    </div>
+    <div class="elipses-container">
+			<button onclick="colorBigCircle('#466EFB'); selectedCircle('blue')" id="elipse-blue" class="elipses"></button>
+			<button onclick="colorBigCircle('#D04A4A'); selectedCircle('red')" id="elipse-red" class="elipses"></button>
+			<button onclick="colorBigCircle('#9AE162'); selectedCircle('green')" id="elipse-green" class="elipses"></button>
+			<button onclick="colorBigCircle('#88F9D4'); selectedCircle('cyan') " id="elipse-cyan" class="elipses"></button>
+			<button onclick="colorBigCircle('#E166F5'); selectedCircle('pink')" id="elipse-pink" class="elipses"></button>
+    </div>
+	
+</body>
+</html>
