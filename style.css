@@ -72,3 +72,36 @@ body {
 #elipse-pink {
     background-color: pink;
 }
+
+@media screen and (max-width: 720px){
+
+    #circle{
+        width: 300px;
+        height: 300px;
+    }
+    .elipses {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: none;
+        margin-right: 20px;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+    }
+}
+@media screen and (max-width: 500px){
+
+    #circle{
+        width: 280px;
+        height: 280px;
+    }
+    .elipses {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: none;
+        margin-right: 20px;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+    }
+}
